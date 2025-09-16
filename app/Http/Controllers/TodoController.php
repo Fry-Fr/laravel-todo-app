@@ -9,7 +9,7 @@ class TodoController extends Controller
 {
     public function index()
     {
-        return view('todos.index', ['todos' => Todo::orderBy('priority')->get()]);
+        return view('todos.index', ['todos' => Todo::orderBy('priority')->orderBy('id', 'desc')->get()]);
     }
 
     public function store(Request $request)
