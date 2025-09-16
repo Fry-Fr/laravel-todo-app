@@ -6,7 +6,7 @@
 
 ### <u>Clone repository</u>
 1. `git clone https://github.com/Fry-Fr/laravel-todo-app.git`
-2. look at the `.env.sample` file
+2. configure local `.env` file look at the `.env.sample` file
 3. run `composer install`
 4. run `php artisan migrate`
 5. run `php artisan serve`
